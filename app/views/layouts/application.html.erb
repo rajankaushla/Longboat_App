@@ -3,13 +3,12 @@
   <head>
     <title>DemoApp</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
     <header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
+    <div class="container">
     <%= link_to "sample app", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
@@ -30,7 +29,7 @@
               </li>
             </ul>
           </li>
-        <% else %>
+          <% else %>
           <li><%= link_to "Log in", login_path %></li>
         <% end %>
       </ul>
@@ -39,9 +38,9 @@
 </header>
     <div class="container">
       <% flash.each do |message_type, message| %>
-        <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>
-    <%= yield %>
+      <%= yield %>
     </div>
   </body>
 </html>
