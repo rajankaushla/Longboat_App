@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README would explains the require steps to get the application up and running.
 
-Things you may want to cover:
+Local installation summary
 
-* Ruby version
+* Install Ruby on Rails
+* Clone or Download using https://github.com/rajankaushla/Inventory
+* Start Server rails s
+* SignUP/SigIn 
+* LogIn/LogOut 
 
-* System dependencies
+Tools and Framewok
 
-* Configuration
+* Framework: Rails verison(Rails 6.0)
+* Language:  Ruby  version(Rails 2.4.8)
 
-* Database creation
+GEMS 
+* Bootstrap: For Application FrontEnd 
 
-* Database initialization
+Database 
+* SQlite3 database Default Database
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
